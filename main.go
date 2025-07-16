@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
+// import "fmt"
+import "github.com/amod8983/go_template/render"
 
 func main() {
-    fmt.Println("Hello, Go!")
+	render.RenderTemplate1()
 }
